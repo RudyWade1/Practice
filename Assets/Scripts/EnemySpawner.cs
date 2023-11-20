@@ -4,33 +4,29 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemyPrefab;
-    [SerializeField] private Transform _spawnPath;
+    [SerializeField] private Enemy _enemy;
+    [SerializeField] private Transform _target;
     [SerializeField] private float _spawnTime;
-    [SerializeField] private float _speed;
 
-    private Transform[] _spawnPoints;
-
+    private int _enemyCount;
 
     private void Start()
     {
-        _spawnPoints = new Transform[_spawnPath.childCount];
-
-        for (int i = 0; i < _spawnPath.childCount; i++)
-            _spawnPoints[i] = _spawnPath.GetChild(i);
-
         StartCoroutine(Spawner());
     }
 
     private IEnumerator Spawner()
     {
-        var waitForSeconds = new WaitForSeconds(_spawnTime);
-
-        for (int i = 0; i < _spawnPoints.Length; i++)
+        while (_enemyCount < 5)
         {
-            Instantiate(_enemyPrefab, _spawnPoints[i].position,Quaternion.identity);
+            Instantiate(_enemy, transform.position, Quaternion.identity);
+            Vector2 direction = transform.position - _target.position;
+            _enemy.Init(direction);
+            _enemyCount++;
 
-            yield return waitForSeconds;
+            yield return new WaitForSeconds(_spawnTime);
         }
     }
+
 }
+
