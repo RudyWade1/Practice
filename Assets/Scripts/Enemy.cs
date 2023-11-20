@@ -6,9 +6,9 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private Vector2 _target;
+    private Transform _target;
 
-    public void Init(Vector2 target)
+    public void Init(Transform target)
     {
         _target = target;
     }
@@ -18,8 +18,8 @@ public class Enemy : MonoBehaviour
         Move();
     }
 
-    private void Move()
+    public void Move()
     {
-        transform.position = Vector2.MoveTowards(transform.position , _target, _speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position , _target.position, _speed * Time.deltaTime);
     }
 }

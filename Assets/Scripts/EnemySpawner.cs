@@ -19,9 +19,10 @@ public class EnemySpawner : MonoBehaviour
     {
         while (_enemyCount < 5)
         {
-            Instantiate(_enemy, transform.position, Quaternion.identity);
-            Vector2 direction = transform.position - _target.position;
-            _enemy.Init(direction);
+            Vector3 direction = (_target.position - transform.position).normalized;
+            var enemy = Instantiate(_enemy, transform.position + direction, Quaternion.identity);
+
+            _enemy.Move();
             _enemyCount++;
 
             yield return new WaitForSeconds(_spawnTime);
