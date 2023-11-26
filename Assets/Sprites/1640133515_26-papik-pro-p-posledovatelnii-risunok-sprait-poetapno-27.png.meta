@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: d350ebfd1095c7a419e447669467719d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 333
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82de259d1fd813f44b6998ca4c60b67b
+      internalID: -1344500711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 266
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3682f464f813d6848b3308a08a190290
+      internalID: -22219720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 333
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5fba3e262796447b3d91075d932b30
+      internalID: -1617381843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 333
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebae46e69339404390bb80cdfce0a56
+      internalID: 1014214956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 333
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eaff710610afe4aa552f829db93d51
+      internalID: -2101375568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 333
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e641fb6ab5fc4f912b839ba139cd6
+      internalID: 2054682370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 66
+        width: 47
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551706cf2e141a64f91c508b9bcc85b4
+      internalID: -1567914159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 266
+        width: 48
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4193e3e03890e0748b1bcfef8c849fee
+      internalID: -2076284977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_8
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 266
+        width: 47
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b22b0d4a26e146939a71be5fc0abf
+      internalID: 877936835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 49
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c470ec4a0e4a94bb4235cd5c5c8496
+      internalID: -218967154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 266
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232ada93f43c1d45819424dc96ff1bf
+      internalID: 666540211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 266
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8058b0a5c62875749a9e99957408524b
+      internalID: 1766576958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 266
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5340985c416094483cbddd0dbd9f1a
+      internalID: -633896467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 45
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7516ed55aed979b4ab665bf651237015
+      internalID: 1431642206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 45
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85486160a1bff6a429ba7a349af21885
+      internalID: 493013473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 200
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cb6baf760336649974291bfd5894a6
+      internalID: 1118662229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 200
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae60bf3bc5b844e925c76877662c1e
+      internalID: 1497179901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_17
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 200
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83fd42eee7c534392cd367b8f9db73
+      internalID: -714411578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 200
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc99d2e90c20f14b94e8c9592487dc4
+      internalID: 1844688922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 133
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f07b9cc5b67d4d9fac2d650881b7f
+      internalID: 1719138807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 133
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da34db09009bdb4fa3526b79ad2d202
+      internalID: 1068553666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_21
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 133
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b885d6097b4e448b8dbfbece2eaa5
+      internalID: 1674904232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_22
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 133
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966c2cbc6b7dbdc44a14a3cb2975b259
+      internalID: 1337954517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_23
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 53
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1176f61275c948a727a0f6d6d7c2c
+      internalID: -1646323289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 53
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ead1ad396bbaf4fa123efa406468e6
+      internalID: -232929803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_25
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 66
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583b23f0e51763e4fbbc3cfacd612523
+      internalID: -90150048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_26
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 66
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b09d79703d6c3442b16c3cf74af9e4a
+      internalID: -1590527374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5e066e5aef1c94e9071e3fa7e0e45c
+      internalID: -587882974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_28
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 0
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0c717b3c4355943affcd19131cc79f
+      internalID: 1854166991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_29
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90effd2be397c9649bfe44b091ab72bf
+      internalID: -2124851225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 332
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3090b6020d13124ea7b97067c141280
+      internalID: 1291985228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_0: -1344500711
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_1: -22219720
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_10: 666540211
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_11: 1766576958
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_12: -633896467
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_13: 1431642206
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_14: 493013473
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_15: 1118662229
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_16: 1497179901
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_17: -714411578
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_18: 1844688922
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_19: 1719138807
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_2: -1617381843
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_20: 1068553666
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_21: 1674904232
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_22: 1337954517
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_23: -1646323289
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_24: -232929803
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_25: -90150048
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_26: -1590527374
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_27: -587882974
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_28: 1854166991
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_29: -2124851225
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_3: 1014214956
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_30: 1291985228
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_4: -2101375568
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_5: 2054682370
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_6: -1567914159
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_7: -2076284977
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_8: 877936835
+      1640133515_26-papik-pro-p-posledovatelnii-risunok-sprait-poetapno-27_9: -218967154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

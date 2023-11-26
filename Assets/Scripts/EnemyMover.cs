@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
 {
-    private float speed;
-    private Vector3 direction;
+    private float _speed;
+    private Vector3 _direction;
+
+    private void Update()
+    {
+        transform.position += _direction * _speed * Time.deltaTime;
+    }
 
     public void SetDirection(Vector3 newDirection)
     {
-        direction = newDirection.normalized;
+        _direction = newDirection.normalized;
     }
 
     public void SetSpeed(float newSpeed)
     {
-        speed = newSpeed;
+        _speed = newSpeed;
     }
 
-    private void Update()
-    {
-        transform.position += direction * speed * Time.deltaTime;
-    }
 }
