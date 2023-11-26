@@ -1,33 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private Enemy _enemy;
-    [SerializeField] private Transform _target;
-    [SerializeField] private float _spawnTime;
+    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private float _spawnInterval;
+    [SerializeField] private float _enemySpeed;
 
-    private int _enemyCount;
+    private float _xRange = 9f;
+    private float _yRange = 5f;
 
     private void Start()
     {
         StartCoroutine(Spawner());
     }
 
-    private IEnumerator Spawner()
+    IEnumerator Spawner()
     {
-        while (_enemyCount < 5)
-        {
-            Vector3 direction = (_target.position - transform.position).normalized;
-            var enemy = Instantiate(_enemy, transform.position + direction, Quaternion.identity);
+        Vector3 spawnPosition = new Vector3(Random.Range(-_xRange, _xRange), Random.Range(-_yRange, _yRange));
+        GameObject newEnemy = Instantiate(_enemyPrefab, spawnPosition, Quaternion.identity);
 
-            _enemy.Move();
-            _enemyCount++;
+        newEnemy.GetComponent<CheckEnemyPosition>().GetEnemy(newEnemy);
+        newEnemy.GetComponent<CheckEnemyPosition>().GetRanges(_xRange, _yRange);
 
-            yield return new WaitForSeconds(_spawnTime);
-        }
+        newEnemy.GetComponent<EnemyMover>().SetDirection(transform.right * _enemySpeed);
+        newEnemy.GetComponent<EnemyMover>().SetSpeed(_enemySpeed);
+
+        yield return new WaitForSeconds(_spawnInterval);
+        StartCoroutine(Spawner());
     }
-
 }
 
