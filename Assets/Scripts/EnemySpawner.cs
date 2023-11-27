@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private Transform _path;
     [SerializeField] private float _spawnInterval;
 
@@ -11,15 +11,19 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
+        _targetPoints = new Transform[_path.childCount];
+
+        for (int i = 0; i < _path.childCount; i++)
+            _targetPoints[i] = _path.GetChild(i);
+
         StartCoroutine(Spawner());
     }
 
     private IEnumerator Spawner()
     {
-        GameObject newEnemy = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
+        Enemy newEnemy = Instantiate(_enemy, transform.position, Quaternion.identity);
 
         newEnemy.GetComponent<EnemyMover>().GetTargetPoints(_targetPoints);
-        newEnemy.GetComponent<EnemyMover>().GetPath(_path);
 
         yield return new WaitForSeconds(_spawnInterval);
         StartCoroutine(Spawner());
