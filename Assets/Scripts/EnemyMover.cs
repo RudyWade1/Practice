@@ -1,25 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
 {
-    private float _speed;
-    private Vector3 _direction;
+    [SerializeField] private float _speed;
+
+    private Transform[] _targetPoints;
+    private Transform _path;
+    private int _currentPoint;
+
+    private void Start()
+    {
+        _targetPoints = new Transform[_path.childCount];
+
+        for (int i = 0; i < _path.childCount; i++)
+            _targetPoints[i] = _path.GetChild(i);
+    }
 
     private void Update()
     {
-        transform.position += _direction * _speed * Time.deltaTime;
+        Transform target = _targetPoints[_currentPoint];
+        transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+
+        if (transform.position == target.position)
+        {
+            _currentPoint++;
+
+            if (_currentPoint == _targetPoints.Length)
+                _currentPoint = 0;
+        }
     }
 
-    public void SetDirection(Vector3 newDirection)
+    public void GetTargetPoints(Transform[] newTargetPoints)
     {
-        _direction = newDirection.normalized;
+        _targetPoints = newTargetPoints;
     }
 
-    public void SetSpeed(float newSpeed)
+    public void GetPath(Transform newPath)
     {
-        _speed = newSpeed;
+        _path = newPath;
     }
-
 }
